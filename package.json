@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A implementation of the interval operator that emits immediately",
   "main": "dist/index.js",
+  "keywords": [
+    "callbag",
+    "interval"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "jest"
