@@ -2,3 +2,5 @@ node_modules
 src/**.test.ts
 tsconfig.json
 tslint.json
+coverage
+.circleci
