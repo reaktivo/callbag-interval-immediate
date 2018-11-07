@@ -1,0 +1,36 @@
+{
+  "name": "callbag-interval-immediate",
+  "version": "1.0.0",
+  "description": "A implementation of the interval operator that emits immediately",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "author": "Marcel Miranda",
+  "license": "ISC",
+  "dependencies": {
+    "callbag-basics": "^3.0.0",
+    "callbag-of": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.9",
+    "callbag-subscribe": "^1.5.0",
+    "husky": "^1.1.3",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4",
+    "typescript": "^3.1.6"
+  },
+  "lint-staged": {
+    "*.{js,json,css,md,ts}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm test"
+    }
+  }
+}
