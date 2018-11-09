@@ -1,6 +1,6 @@
 {
   "name": "callbag-interval-immediate",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A implementation of the interval operator that emits immediately",
   "main": "dist/index.js",
   "keywords": [
