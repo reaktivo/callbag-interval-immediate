@@ -15,8 +15,7 @@
   "author": "Marcel Miranda",
   "license": "ISC",
   "dependencies": {
-    "callbag-basics": "^3.0.0",
-    "callbag-of": "^1.0.1"
+    "callbag-basics": "^3.0.0"
   },
   "devDependencies": {
     "@types/jest": "^23.3.9",

@@ -1,11 +1,10 @@
 /* TODO: Remove all the dependencies */
-import { interval, map, pipe, merge, forEach } from "callbag-basics";
-import * as of from "callbag-of";
+import { interval, map, pipe, merge, fromIter } from "callbag-basics";
 
 export default function intervalImmediate(intervalMs) {
   let count = 0;
   return pipe(
-    merge(of(0), interval(intervalMs)),
+    merge(fromIter([0]), interval(intervalMs)),
     map(() => count++)
   );
 }
