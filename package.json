@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "jest",
+    "test": "jest src",
     "publish": "npm run -s build"
   },
   "author": "Marcel Miranda",
