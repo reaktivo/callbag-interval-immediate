@@ -1,6 +1,6 @@
 {
   "name": "callbag-interval-immediate",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "Marcel Miranda <m@reaktivo.com>",
   "description": "A implementation of the interval operator that emits immediately",
   "main": "dist/index.js",
