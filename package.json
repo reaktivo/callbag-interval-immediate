@@ -17,7 +17,7 @@
     "test": "jest src",
     "publish": "npm run -s build"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "callbag-basics": "^3.0.0"
   },
